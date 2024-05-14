@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
     carousel.classList.remove("dragging");
   };
 
+  
   const autoPlay = () => {
     if (window.innerWidth < 100) return;
 
